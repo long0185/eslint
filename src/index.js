@@ -1,5 +1,6 @@
 const a = 123;
 function node() {
-  b = 123;
+  var b = 123;
+  const c = 1;
 }
 console.log(`a`, a);
